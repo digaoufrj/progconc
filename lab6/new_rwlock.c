@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include "timer.h"
-#include "list_int.h" // Supondo que esta biblioteca já está implementada
+#include "list_int.h" 
 
 #define QTDE_OPS 5000 // quantidade de operações sobre a lista (inserção, remoção, consulta) - diminui pra 5000 pra facilitar a visualização do log
 #define QTDE_INI 100  // quantidade de inserções iniciais na lista
